@@ -152,12 +152,6 @@ nav section a img {
 }
 
 @media (width <= 990px) {
-  main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
   #nav li a:hover {
     background-size: 15% 2px;
   }
@@ -178,7 +172,11 @@ nav section a img {
     margin: 0px;
   }
 
-  .tendencias {
+  .tendencias,
+  #contacto {
+    align-items: center;
+    justify-content: center;
+    display: flex;
     margin: 50px 0px;
     flex-direction: column;
   }
