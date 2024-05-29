@@ -35,13 +35,16 @@ header section h1 {
 
 #contacto {
   display: flex;
-  background-color: #ff9640;
 }
 
 #contacto h2 {
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: 400;
   color: #ffff;
+}
+
+li::marker {
+  color: #ff914d;
 }
 
 a {
@@ -49,7 +52,7 @@ a {
 }
 
 .section-insta {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(112, 112, 112);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,19 +138,52 @@ nav section a img {
 }
 
 .tendencias {
-  margin: 200px 100px;
+  gap: 80px;
+  margin: 100px 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.tendencias img {
-  width: 46vw;
-}
 .tendencias div {
+  padding: 10%;
   font-size: 1.3em;
   display: flex;
   align-items: start;
-  margin: 35px;
+  flex-direction: column;
+}
+
+.tendencias div ul {
+  max-height: 650px;
+}
+
+.tendencias div ul li h3 {
+  font-size: 1em;
+}
+
+.tendencias div ul li p {
+  font-size: 0.8em;
+}
+
+#nosotros {
+  gap: 80px;
+  margin: 200px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nosotros img {
+  height: 650px;
+  width: auto;
+  object-fit: contain;
+}
+
+#nosotros section {
+  padding: 10%;
+  font-size: 1.3em;
+  display: flex;
+  align-items: start;
   flex-direction: column;
 }
 
@@ -173,21 +209,29 @@ nav section a img {
   }
 
   .tendencias,
-  #contacto {
-    align-items: center;
-    justify-content: center;
+  #contacto,
+  #nosotros {
+    gap: 0px;
+    font-size: 0.9em;
     display: flex;
     margin: 50px 0px;
     flex-direction: column;
   }
-  .tendencias img {
-    margin: 0px;
+
+  #nosotros img {
     width: 80vw;
+    height: auto;
+  }
+
+  .tendencias img {
+    height: auto !important;
+    margin: 0px;
+    width: 80vw !important;
     order: 1;
   }
   .tendencias div {
     margin: 0px;
-    width: 80vw;
+    width: 90vw;
     order: 2;
   }
 }

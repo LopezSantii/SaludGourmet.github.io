@@ -45,13 +45,13 @@
               <a class="nav-link" href="#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profesionales</a>
+              <a class="nav-link" href="#profesionales">Profesionales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Envios</a>
+              <a class="nav-link" href="#envios">Envios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -68,21 +68,69 @@
 
     <!-- main -->
     <main>
-      <!-- Artistas -->
-      <section id="nosotros" class="tendencias">
-        <img src="img/banner1.png" alt="comida en viandas" />
-        <div>
+      <!-- carrousel de imagenes -->
+      <section id="nosotros">
+        <div id="carousel" class="carousel carousel-fade">
+          <div class="carousel-inner img-carrousel">
+            <div class="carousel-item active">
+              <img
+                src="./img/carrousel/1.png"
+                alt="vianda de medallon de pollo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/carrousel/2.png"
+                alt="vianda de bastones de pollo con papas"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/carrousel/3.png"
+                alt="vianda de albonidga con pure"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrousel/4.png" alt="tarta de verduras" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <section>
           <h2>¿Quienes somos?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem enim
-            nam veritatis fuga neque laborum quis. Praesentium mollitia, quo est
-            nostrum voluptates, temporibus molestiae quod exercitationem ex
-            eaque officiis fugiat!
+            Somos
+            <span style="color: #ff914d">Salud Gourmet</span>, una empresa
+            dedicada a ofrecer servicios de viandas saludables.
           </p>
-        </div>
+          <p>
+            Nuestro objetivo es promover una
+            <span style="color: #ff914d"
+              >alimentación balanceada y nutritiva</span
+            >, adaptada a las necesidades de nuestros clientes, tanto a nivel
+            corporativo como individual.
+          </p>
+        </section>
       </section>
 
-      <section class="section-insta">
+      <!-- <section class="section-insta">
         <h2><span style="color: #fff">Seguinos</span> en las redes</h2>
         <div>
           <blockquote
@@ -1205,38 +1253,51 @@
           </blockquote>
           <script async src="//www.instagram.com/embed.js"></script>
         </div>
-      </section>
+      </section> -->
 
-      <section class="tendencias">
+      <section id="profesionales" class="tendencias">
         <div>
-          <h2>Pantalón Y2K</h2>
+          <h2>¿Qué hacemos?</h2>
           <p>
-            Desde hace unas cuantas temporadas, la estética de los años 2000
-            viene entonando cantos de regreso. Para el años 2023, y gracias en
-            gran parte a la Generación Z, la moda de principios de siglo regresa
-            en todo su esplendor. Lo veremos especialmente en los pantalones,
-            tanto en los jeans como en modelos de vestir o incluso los shorts.
-            Su silueta se multiplica más allá de los límites, cae por la cadera
-            e incluso deja a la vista la goma de los calzoncillos.
+            Nos especializamos en la preparación y entrega de comidas
+            <span style="color: #ff914d">saludables</span>
+            y equilibradas. Cada vianda está diseñada por
+            <span style="color: #ff914d">nutricionistas</span> y
+            <span style="color: #ff914d">chefs</span>
+            profesionales para asegurar que nuestros clientes reciban alimentos
+            frescos, sabrosos y ricos en nutrientes.
           </p>
         </div>
-        <img src="img/banner2.png" alt="comida saludable" />
+        <img
+          style="height: 650px; width: auto; object-fit: contain"
+          src="img/banner3.png"
+          alt="comida saludable"
+        />
       </section>
 
       <section id="contacto">
         <div class="tendencias">
-          <img src="img/banner4.webp" alt="banner jean con jean" />
+          <img
+            style="height: 500px; width: 500px; object-fit: contain"
+            src="img/logo.png"
+            alt="banner jean con jean"
+          />
           <div>
-            <h2>Denim On Denim</h2>
+            <h2 style="color: #ff914d">Misión:</h2>
             <p>
-              Llevar un total look vaquero (o Canadian Tuxedo, como lo conocen
-              los anglosajones) no es nada nuevo, pero con la vuelta de los años
-              2000 a la moda es inevitable recordar uno de los momentos más
-              icónicos de la historia fashionista: el look de Justin Timberlake
-              y Britney Spears en los American Music Awards de 2001. Para el
-              próximo verano el conjunto se actualiza en todas sus siluetas y
-              cortes, la elección es tuya. Solo tienes que asegurarte de que
-              todas las piezas tienen el mismo tono.
+              Nuestra misión es mejorar la calidad de vida de las personas a
+              través de una alimentación saludable. Nos esforzamos por
+              proporcionar opciones alimenticias que no solo sean deliciosas,
+              sino que también contribuyan al bienestar físico y mental de
+              nuestros clientes.
+            </p>
+
+            <h2 style="color: #ff914d">Visión:</h2>
+            <p>
+              Nuestra visión es ser líderes en el mercado de viandas saludables,
+              reconocidos por la calidad de nuestros productos y el impacto
+              positivo en la salud de nuestros clientes. Aspiramos a crear una
+              comunidad que valore y practique hábitos alimenticios saludables.
             </p>
           </div>
         </div>
@@ -1244,18 +1305,44 @@
 
       <section class="tendencias">
         <div>
-          <h2>Pantalón Y2K</h2>
-          <p>
-            Desde hace unas cuantas temporadas, la estética de los años 2000
-            viene entonando cantos de regreso. Para el años 2023, y gracias en
-            gran parte a la Generación Z, la moda de principios de siglo regresa
-            en todo su esplendor. Lo veremos especialmente en los pantalones,
-            tanto en los jeans como en modelos de vestir o incluso los shorts.
-            Su silueta se multiplica más allá de los límites, cae por la cadera
-            e incluso deja a la vista la goma de los calzoncillos.
-          </p>
+          <h2>Valores:</h2>
+          <ul>
+            <li>
+              <h3>Calidad:</h3>
+              <p>
+                Utilizamos ingredientes frescos y de alta calidad para asegurar
+                que cada vianda sea nutritiva y deliciosa.
+              </p>
+            </li>
+            <li>
+              <h3>Innovación:</h3>
+              <p>
+                Estamos constantemente mejorando y diversificando nuestras
+                ofertas para satisfacer las necesidades cambiantes de nuestros
+                clientes.
+              </p>
+            </li>
+            <li>
+              <h3>Compromiso:</h3>
+              <p>
+                Nos comprometemos a promover la salud y el bienestar de nuestros
+                clientes a través de una alimentación adecuada.
+              </p>
+            </li>
+            <li>
+              <h3>Sostenibilidad:</h3>
+              <p>
+                Priorizamos prácticas sostenibles en la selección de nuestros
+                ingredientes y en nuestros procesos de producción.
+              </p>
+            </li>
+          </ul>
         </div>
-        <img src="img/banner2.png" alt="comida saludable" />
+        <img
+          style="height: 650px; width: auto; object-fit: contain"
+          src="img/chef.jpeg"
+          alt="chef salud gourmet"
+        />
       </section>
     </main>
 
