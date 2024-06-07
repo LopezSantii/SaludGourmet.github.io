@@ -187,6 +187,64 @@ nav section a img {
   flex-direction: column;
 }
 
+@media (width <= 1366px) {
+  .tendencias {
+    gap: 90px;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #nosotros {
+    gap: 90px;
+    margin: 200px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #nosotros section {
+    max-width: 500px;
+    padding: 5% 0px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  #nosotros img {
+    width: 30vw;
+    height: auto;
+  }
+
+  .tendencias div {
+    max-width: 500px;
+    padding: 5% 0px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .tendencias div ul {
+    max-height: 650px;
+  }
+
+  .tendencias div ul li h3 {
+    font-size: 1em;
+  }
+
+  .tendencias div ul li p {
+    font-size: 0.8em;
+  }
+
+  .tendencias img {
+    width: 30vw !important;
+    height: auto !important;
+  }
+}
+
 @media (width <= 990px) {
   #nav li a:hover {
     background-size: 15% 2px;
