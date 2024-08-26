@@ -47,7 +47,6 @@ para las redes sociales y los links de descarga para la app.
 - Css
 #### Frameworks
 - Sass
-- Node.js
 - Boostrap
 #### Sistemas de control de versiones
 - Git
